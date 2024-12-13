@@ -14,5 +14,5 @@ Pod::Spec.new do |spec|
                 
                 
                 
-    spec.vendored_frameworks = firebase_sdk.xcframework
+    spec.vendored_frameworks = 'firebase_sdk.xcframework'
 end
