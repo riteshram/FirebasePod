@@ -1,0 +1,5 @@
+framework module "firebase_sdk" {
+    umbrella header "firebase_sdk.h"
+    export *
+    module * { export * }
+}
