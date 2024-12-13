@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
     s.author       = { 'Ritesh Ramdev' => 'riteshr222@gmail.com' }
     s.source       = { :git => 'https://github.com/riteshram/FirebasePod.git', :tag => s.version.to_s }
-    spec.vendored_frameworks      = 'firebase_sdk.xcframework'
-    spec.libraries                = 'c++'
-    spec.ios.deployment_target    = '16.0'
-    spec.dependency 'FirebaseRemoteConfig'
+    s.vendored_frameworks      = 'Frameworks/firebase_sdk.xcframework'
+    s.libraries                = 'c++'
+    s.ios.deployment_target    = '16.0'
+    s.dependency 'FirebaseRemoteConfig'
   end
