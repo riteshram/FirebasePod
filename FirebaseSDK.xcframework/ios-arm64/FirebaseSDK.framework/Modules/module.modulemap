@@ -1,0 +1,8 @@
+framework module "FirebaseSDK" {
+    umbrella header "FirebaseSDK.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
